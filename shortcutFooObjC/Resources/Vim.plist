@@ -2,865 +2,854 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>Levels</key>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>Beginner Text Navigation</string>
+			<key>keys</key>
+			<array>
+				<dict>
+					<key>id</key>
+					<integer>101</integer>
+					<key>Move up one line</key>
+					<string>k</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>102</integer>
+					<key>Move down one line</key>
+					<string>j</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>103</integer>
+					<key>Move left one character</key>
+					<string>h</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>104</integer>
+					<key>Move right one character</key>
+					<string>l</string>
+				</dict>
+				<dict>
+					<key>Move to end of word</key>
+					<string>e</string>
+					<key>id</key>
+					<integer>105</integer>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>106</integer>
+					<key>Move to beginning of word</key>
+					<string>b</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>107</integer>
+					<key>Move to end of line</key>
+					<string>$</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>108</integer>
+					<key>Move to beginning of line</key>
+					<string>0</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>109</integer>
+					<key>Move to first line of screen</key>
+					<string>H</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>110</integer>
+					<key>Move to middle line of screen</key>
+					<string>M</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>111</integer>
+					<key>Move to last line of screen</key>
+					<string>L</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>112</integer>
+					<key>Move to next word</key>
+					<string>w</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>113</integer>
+					<key>Move to previous word</key>
+					<string>b</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Beginner Text Editing</string>
+			<key>keys</key>
+			<array>
+				<dict>
+					<key>id</key>
+					<integer>114</integer>
+					<key>Change rest of current word</key>
+					<string>ce</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>115</integer>
+					<key>Delete word</key>
+					<string>ce</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>116</integer>
+					<key>Insert</key>
+					<string>i</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>117</integer>
+					<key>Insert at start of line</key>
+					<string>I</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>118</integer>
+					<key>Append</key>
+					<string>a</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>119</integer>
+					<key>Append at end of line</key>
+					<string>A</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>120</integer>
+					<key>Insert new line below</key>
+					<string>o</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>121</integer>
+					<key>Insert new line above</key>
+					<string>O</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>122</integer>
+					<key>Change char and return to cmd mode</key>
+					<string>r</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>123</integer>
+					<key>Enter replace mode</key>
+					<string>R</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>124</integer>
+					<key>Go to command mode</key>
+					<string>ESC</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Intermediate Text Navigation I</string>
+			<key>keys</key>
+			<array>
+				<dict>
+					<key>id</key>
+					<integer>125</integer>
+					<key>Move to next &apos;w&apos; on line</key>
+					<string>fw</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>126</integer>
+					<key>Move to previous &apos;w&apos; on line</key>
+					<string>Fw</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>127</integer>
+					<key>Move before next &apos;w&apos; on line</key>
+					<string>tw</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>128</integer>
+					<key>Move before previous &apos;w&apos; on line</key>
+					<string>Tw</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>129</integer>
+					<key>Repeat last f, F, t, or T</key>
+					<string>;</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>130</integer>
+					<key>Repeat last f, F, t, or T reversed</key>
+					<string>,</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>131</integer>
+					<key>Move down 5 lines</key>
+					<string>5j</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>132</integer>
+					<key>Move up 5 lines</key>
+					<string>5k</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Intermediate Text Navigation II</string>
+			<key>keys</key>
+			<array>
+				<dict>
+					<key>id</key>
+					<integer>133</integer>
+					<key>Move 5 words forward</key>
+					<string>5w</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>134</integer>
+					<key>Move 5 words backward</key>
+					<string>5b</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>135</integer>
+					<key>Scroll down</key>
+					<string>^e</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>136</integer>
+					<key>Scroll up</key>
+					<string>^y</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>137</integer>
+					<key>Go to beginning of file</key>
+					<string>gg</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>138</integer>
+					<key>Go to end of file</key>
+					<string>G</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>139</integer>
+					<key>Go to line 12</key>
+					<string>12G</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>140</integer>
+					<key>Move forward one screen</key>
+					<string>^f</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>141</integer>
+					<key>Move backward one screen</key>
+					<string>^b</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>142</integer>
+					<key>Move to next sentence</key>
+					<string>)</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>143</integer>
+					<key>Move to next Paragraph</key>
+					<string>}</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Intermediate Text Editing I</string>
+			<key>keys</key>
+			<array>
+				<dict>
+					<key>id</key>
+					<integer>144</integer>
+					<key>Yank (copy) line</key>
+					<string>yy</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>145</integer>
+					<key>Yank (copy) to end of line</key>
+					<string>y$</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>146</integer>
+					<key>Yank (copy) to end of word</key>
+					<string>ye</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>147</integer>
+					<key>Delete (cut) current line</key>
+					<string>dd</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>148</integer>
+					<key>Delete 5 lines</key>
+					<string>5dd</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>149</integer>
+					<key>Delete (cut) next two words</key>
+					<string>d2w</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>150</integer>
+					<key>Delete (cut) to end of line (one char)</key>
+					<string>D</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>151</integer>
+					<key>Paste</key>
+					<string>p</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Intermediate Text Editing II</string>
+			<key>keys</key>
+			<array>
+				<dict>
+					<key>id</key>
+					<integer>152</integer>
+					<key>Paste before cursor</key>
+					<string>P</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>153</integer>
+					<key>Undo</key>
+					<string>u</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>154</integer>
+					<key>Undo all changes to current line</key>
+					<string>U</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>155</integer>
+					<key>Redo</key>
+					<string>^r</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>156</integer>
+					<key>Repeat last change</key>
+					<string>.</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>157</integer>
+					<key>Repeat last change 5 times</key>
+					<string>5.</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>158</integer>
+					<key>Delete (cut) to end of word</key>
+					<string>de</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>159</integer>
+					<key>Paste</key>
+					<string>d$</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Advanced Text Navigation</string>
+			<key>keys</key>
+			<array>
+				<dict>
+					<key>id</key>
+					<integer>160</integer>
+					<key>Move to first non whitespace char</key>
+					<string>^</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>161</integer>
+					<key>Go to column 20</key>
+					<string>20|</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>162</integer>
+					<key>Go to matching parenthesis or bracket</key>
+					<string>%</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>163</integer>
+					<key>Move to older position</key>
+					<string>^o</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>164</integer>
+					<key>Scroll current line to top of window</key>
+					<string>zt</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Visual Mode</string>
+			<key>keys</key>
+			<array>
+				<dict>
+					<key>id</key>
+					<integer>165</integer>
+					<key>Write selection to &apos;filename&apos;</key>
+					<string>:w filename↵</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>166</integer>
+					<key>Visual mode select characters</key>
+					<string>v</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>167</integer>
+					<key>Visual mode highlight lines</key>
+					<string>V</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>168</integer>
+					<key>Swap case</key>
+					<string>~</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>169</integer>
+					<key>Shift right</key>
+					<string>&gt;</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>170</integer>
+					<key>Shift left</key>
+					<string>&lt;</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>171</integer>
+					<key>Change highlighted text</key>
+					<string>c</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>172</integer>
+					<key>Yank (copy) highlighted text</key>
+					<string>y</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>173</integer>
+					<key>Cut highlighted text</key>
+					<string>d</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>174</integer>
+					<key>Re-indent selection</key>
+					<string>=</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Window Management</string>
+			<key>keys</key>
+			<array>
+				<dict>
+					<key>id</key>
+					<integer>175</integer>
+					<key>Set current buffer to &apos;filename&apos;</key>
+					<string>:e filename↵</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>176</integer>
+					<key>New window above</key>
+					<string>:sp↵</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>177</integer>
+					<key>New window to left</key>
+					<string>:vs↵</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>178</integer>
+					<key>Close current window</key>
+					<string>:q↵</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>179</integer>
+					<key>Close all windows</key>
+					<string>:qa↵</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>180</integer>
+					<key>Switch between windows</key>
+					<string>Ctrl + w</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>181</integer>
+					<key>Increase window size by 10 lines</key>
+					<string>10 Ctrl + w +</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>File Management</string>
+			<key>keys</key>
+			<array>
+				<dict>
+					<key>id</key>
+					<integer>182</integer>
+					<key>Quit without saving</key>
+					<string>:q!↵</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>183</integer>
+					<key>Save and exit</key>
+					<string>:wq↵</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>184</integer>
+					<key>Save and exit if modified</key>
+					<string>:x↵</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>185</integer>
+					<key>Read and insert &apos;filename&apos;</key>
+					<string>:r filename↵</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>186</integer>
+					<key>Execute and insert results of &apos;cmd&apos;</key>
+					<string>:r !cmd↵</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>187</integer>
+					<key>Delete &apos;filename&apos;</key>
+					<string>:!rm filename↵</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>188</integer>
+					<key>Open new file</key>
+					<string>:e↵</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>189</integer>
+					<key>Show file info</key>
+					<string>⌃g</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>190</integer>
+					<key>Show character info</key>
+					<string>ga</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>191</integer>
+					<key>Save changes</key>
+					<string>:w↵</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>192</integer>
+					<key>Quit</key>
+					<string>:q↵</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Bookmarks</string>
+			<key>keys</key>
+			<array>
+				<dict>
+					<key>id</key>
+					<integer>193</integer>
+					<key>Show bookmarks</key>
+					<string>:marks↵</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>194</integer>
+					<key>Mark position &apos;a&apos;</key>
+					<string>ma</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>195</integer>
+					<key>Go to bookmark position &apos;a&apos;</key>
+					<string>`a</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>196</integer>
+					<key>Go to previous position</key>
+					<string>``</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Replace</string>
+			<key>keys</key>
+			<array>
+				<dict>
+					<key>id</key>
+					<integer>197</integer>
+					<key>Replace first &apos;foo&apos; with &apos;bar&apos; on line</key>
+					<string>:s/foo/bar↵</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>198</integer>
+					<key>Replace all &apos;foo&apos; with &apos;bar&apos; on line</key>
+					<string>:s/foo/bar/g↵</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>199</integer>
+					<key>Replace all &apos;foo&apos; with &apos;bar&apos; in file</key>
+					<string>:%s/foo/bar/g↵</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>220</integer>
+					<key>Replace first &apos;foo&apos; with &apos;bar&apos; on every line</key>
+					<string>:%s/foo/bar↵</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>201</integer>
+					<key>Confirm replace all &apos;foo&apos; with &apos;bar&apos; on line</key>
+					<string>:s/foo/bar/gc↵</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>201</integer>
+					<key>Ignore case replace first &apos;foo&apos; with &apos;bar&apos;</key>
+					<string>:s/foo/bar/i↵</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>202</integer>
+					<key>Replace current char with &apos;x&apos;</key>
+					<string>rx</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>203</integer>
+					<key>Confirm replace all &apos;foo&apos; with &apos;bar&apos; in file</key>
+					<string>:%s/foo/bar/gc↵</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>204</integer>
+					<key>Replace all &apos;foo&apos; with &apos;bar&apos; between lines 2 and 9</key>
+					<string>:2,9s/foo/bar/g↵</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Search</string>
+			<key>keys</key>
+			<array>
+				<dict>
+					<key>id</key>
+					<integer>205</integer>
+					<key>Search forwards for &apos;foo&apos;</key>
+					<string>/foo↵</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>206</integer>
+					<key>Search backwards for &apos;foo&apos;</key>
+					<string>?foo↵</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>207</integer>
+					<key>Search next</key>
+					<string>n</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>208</integer>
+					<key>Search previous</key>
+					<string>N</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>209</integer>
+					<key>Search for current word forward</key>
+					<string>*</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>220</integer>
+					<key>Turn off incremental search</key>
+					<string>:set nois↵</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>211</integer>
+					<key>Set ignore case</key>
+					<string>:set ic↵</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>212</integer>
+					<key>Set incremental search</key>
+					<string>:set is↵</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>213</integer>
+					<key>Set highlight matching phrases</key>
+					<string>:set hls↵</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Misc</string>
+			<key>keys</key>
+			<array>
+				<dict>
+					<key>id</key>
+					<integer>214</integer>
+					<key>Start editing where foo is defined</key>
+					<string>vim -t foo↵</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>215</integer>
+					<key>Lookup &apos;cmd&apos; in help</key>
+					<string>:help cmd↵</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>216</integer>
+					<key>Run make</key>
+					<string>:make↵</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>217</integer>
+					<key>Execute &apos;ls&apos; command</key>
+					<string>:!ls↵</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>218</integer>
+					<key>Move autocomplete backward</key>
+					<string>⌃p</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>219</integer>
+					<key>Move language autocomplete forward</key>
+					<string>⌃x</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>220</integer>
+					<key>Move language autocomplete backward</key>
+					<string>⌃o</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>221</integer>
+					<key>Look up word in man pages</key>
+					<string>K</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>222</integer>
+					<key>Yank to beginning of next word</key>
+					<string>yw</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>223</integer>
+					<key>See diff of changes you made in vim</key>
+					<string>:w !diff % -</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
 	<key>courseid</key>
 	<string>vim</string>
 	<key>title</key>
 	<string>Vim</string>
-	<key>Level1</key>
-	<dict>
-		<key>title</key>
-		<string>Beginner Text Navigation</string>
-		<key>keys</key>
-		<array>
-			<dict>
-				<key>id</key>
-				<integer>101</integer>
-				<key>Move up one line</key>
-				<string>k</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>102</integer>
-				<key>Move down one line</key>
-				<string>j</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>103</integer>
-				<key>Move left one character</key>
-				<string>h</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>104</integer>
-				<key>Move right one character</key>
-				<string>l</string>
-			</dict>
-			<dict>
-				<key>Move to end of word</key>
-				<string>e</string>
-				<key>id</key>
-				<integer>105</integer>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>106</integer>
-				<key>Move to beginning of word</key>
-				<string>b</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>107</integer>
-				<key>Move to end of line</key>
-				<string>$</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>108</integer>
-				<key>Move to beginning of line</key>
-				<string>0</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>109</integer>
-				<key>Move to first line of screen</key>
-				<string>H</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>110</integer>
-				<key>Move to middle line of screen</key>
-				<string>M</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>111</integer>
-				<key>Move to last line of screen</key>
-				<string>L</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>112</integer>
-				<key>Move to next word</key>
-				<string>w</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>113</integer>
-				<key>Move to previous word</key>
-				<string>b</string>
-			</dict>
-		</array>
-	</dict>
-	<key>Level2</key>
-	<dict>
-		<key>title</key>
-		<string>Beginner Text Editing</string>
-		<key>keys</key>
-		<array>
-			<dict>
-				<key>id</key>
-				<integer>114</integer>
-				<key>Change rest of current word</key>
-				<string>ce</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>115</integer>
-				<key>Delete word</key>
-				<string>ce</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>116</integer>
-				<key>Insert</key>
-				<string>i</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>117</integer>
-				<key>Insert at start of line</key>
-				<string>I</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>118</integer>
-				<key>Append</key>
-				<string>a</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>119</integer>
-				<key>Append at end of line</key>
-				<string>A</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>120</integer>
-				<key>Insert new line below</key>
-				<string>o</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>121</integer>
-				<key>Insert new line above</key>
-				<string>O</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>122</integer>
-				<key>Change char and return to cmd mode</key>
-				<string>r</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>123</integer>
-				<key>Enter replace mode</key>
-				<string>R</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>124</integer>
-				<key>Go to command mode</key>
-				<string>ESC</string>
-			</dict>
-		</array>
-	</dict>
-	<key>Level3</key>
-	<dict>
-		<key>title</key>
-		<string>Intermediate Text Navigation I</string>
-		<key>keys</key>
-		<array>
-			<dict>
-				<key>id</key>
-				<integer>125</integer>
-				<key>Move to next &apos;w&apos; on line</key>
-				<string>fw</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>126</integer>
-				<key>Move to previous &apos;w&apos; on line</key>
-				<string>Fw</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>127</integer>
-				<key>Move before next &apos;w&apos; on line</key>
-				<string>tw</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>128</integer>
-				<key>Move before previous &apos;w&apos; on line</key>
-				<string>Tw</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>129</integer>
-				<key>Repeat last f, F, t, or T</key>
-				<string>;</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>130</integer>
-				<key>Repeat last f, F, t, or T reversed</key>
-				<string>,</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>131</integer>
-				<key>Move down 5 lines</key>
-				<string>5j</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>132</integer>
-				<key>Move up 5 lines</key>
-				<string>5k</string>
-			</dict>
-		</array>
-	</dict>
-	<key>Level4</key>
-	<dict>
-		<key>title</key>
-		<string>Intermediate Text Navigation II</string>
-		<key>keys</key>
-		<array>
-			<dict>
-				<key>id</key>
-				<integer>133</integer>
-				<key>Move 5 words forward</key>
-				<string>5w</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>134</integer>
-				<key>Move 5 words backward</key>
-				<string>5b</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>135</integer>
-				<key>Scroll down</key>
-				<string>^e</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>136</integer>
-				<key>Scroll up</key>
-				<string>^y</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>137</integer>
-				<key>Go to beginning of file</key>
-				<string>gg</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>138</integer>
-				<key>Go to end of file</key>
-				<string>G</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>139</integer>
-				<key>Go to line 12</key>
-				<string>12G</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>140</integer>
-				<key>Move forward one screen</key>
-				<string>^f</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>141</integer>
-				<key>Move backward one screen</key>
-				<string>^b</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>142</integer>
-				<key>Move to next sentence</key>
-				<string>)</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>143</integer>
-				<key>Move to next Paragraph</key>
-				<string>}</string>
-			</dict>
-		</array>
-	</dict>
-	<key>Level5</key>
-	<dict>
-		<key>title</key>
-		<string>Intermediate Text Editing I</string>
-		<key>keys</key>
-		<array>
-			<dict>
-				<key>id</key>
-				<integer>144</integer>
-				<key>Yank (copy) line</key>
-				<string>yy</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>145</integer>
-				<key>Yank (copy) to end of line</key>
-				<string>y$</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>146</integer>
-				<key>Yank (copy) to end of word</key>
-				<string>ye</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>147</integer>
-				<key>Delete (cut) current line</key>
-				<string>dd</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>148</integer>
-				<key>Delete 5 lines</key>
-				<string>5dd</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>149</integer>
-				<key>Delete (cut) next two words</key>
-				<string>d2w</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>150</integer>
-				<key>Delete (cut) to end of line (one char)</key>
-				<string>D</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>151</integer>
-				<key>Paste</key>
-				<string>p</string>
-			</dict>
-		</array>
-	</dict>
-	<key>Level6</key>
-	<dict>
-		<key>title</key>
-		<string>Intermediate Text Editing II</string>
-		<key>keys</key>
-		<array>
-			<dict>
-				<key>id</key>
-				<integer>152</integer>
-				<key>Paste before cursor</key>
-				<string>P</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>153</integer>
-				<key>Undo</key>
-				<string>u</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>154</integer>
-				<key>Undo all changes to current line</key>
-				<string>U</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>155</integer>
-				<key>Redo</key>
-				<string>^r</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>156</integer>
-				<key>Repeat last change</key>
-				<string>.</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>157</integer>
-				<key>Repeat last change 5 times</key>
-				<string>5.</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>158</integer>
-				<key>Delete (cut) to end of word</key>
-				<string>de</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>159</integer>
-				<key>Paste</key>
-				<string>d$</string>
-			</dict>
-		</array>
-	</dict>
-	<key>Level7</key>
-	<dict>
-		<key>title</key>
-		<string>Advanced Text Navigation</string>
-		<key>keys</key>
-		<array>
-			<dict>
-				<key>id</key>
-				<integer>160</integer>
-				<key>Move to first non whitespace char</key>
-				<string>^</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>161</integer>
-				<key>Go to column 20</key>
-				<string>20|</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>162</integer>
-				<key>Go to matching parenthesis or bracket</key>
-				<string>%</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>163</integer>
-				<key>Move to older position</key>
-				<string>^o</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>164</integer>
-				<key>Scroll current line to top of window</key>
-				<string>zt</string>
-			</dict>
-		</array>
-	</dict>
-	<key>Level8</key>
-	<dict>
-		<key>title</key>
-		<string>Visual Mode</string>
-		<key>keys</key>
-		<array>
-			<dict>
-				<key>id</key>
-				<integer>165</integer>
-				<key>Write selection to &apos;filename&apos;</key>
-				<string>:w filename↵</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>166</integer>
-				<key>Visual mode select characters</key>
-				<string>v</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>167</integer>
-				<key>Visual mode highlight lines</key>
-				<string>V</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>168</integer>
-				<key>Swap case</key>
-				<string>~</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>169</integer>
-				<key>Shift right</key>
-				<string>&gt;</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>170</integer>
-				<key>Shift left</key>
-				<string>&lt;</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>171</integer>
-				<key>Change highlighted text</key>
-				<string>c</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>172</integer>
-				<key>Yank (copy) highlighted text</key>
-				<string>y</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>173</integer>
-				<key>Cut highlighted text</key>
-				<string>d</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>174</integer>
-				<key>Re-indent selection</key>
-				<string>=</string>
-			</dict>
-		</array>
-	</dict>
-	<key>Level9</key>
-	<dict>
-		<key>title</key>
-		<string>Window Management</string>
-		<key>keys</key>
-		<array>
-			<dict>
-				<key>id</key>
-				<integer>175</integer>
-				<key>Set current buffer to &apos;filename&apos;</key>
-				<string>:e filename↵</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>176</integer>
-				<key>New window above</key>
-				<string>:sp↵</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>177</integer>
-				<key>New window to left</key>
-				<string>:vs↵</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>178</integer>
-				<key>Close current window</key>
-				<string>:q↵</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>179</integer>
-				<key>Close all windows</key>
-				<string>:qa↵</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>180</integer>
-				<key>Switch between windows</key>
-				<string>Ctrl + w</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>181</integer>
-				<key>Increase window size by 10 lines</key>
-				<string>10 Ctrl + w +</string>
-			</dict>
-		</array>
-	</dict>
-	<key>Level10</key>
-	<dict>
-		<key>title</key>
-		<string>File Management</string>
-		<key>keys</key>
-		<array>
-			<dict>
-				<key>id</key>
-				<integer>182</integer>
-				<key>Quit without saving</key>
-				<string>:q!↵</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>183</integer>
-				<key>Save and exit</key>
-				<string>:wq↵</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>184</integer>
-				<key>Save and exit if modified</key>
-				<string>:x↵</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>185</integer>
-				<key>Read and insert &apos;filename&apos;</key>
-				<string>:r filename↵</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>186</integer>
-				<key>Execute and insert results of &apos;cmd&apos;</key>
-				<string>:r !cmd↵</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>187</integer>
-				<key>Delete &apos;filename&apos;</key>
-				<string>:!rm filename↵</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>188</integer>
-				<key>Open new file</key>
-				<string>:e↵</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>189</integer>
-				<key>Show file info</key>
-				<string>⌃g</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>190</integer>
-				<key>Show character info</key>
-				<string>ga</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>191</integer>
-				<key>Save changes</key>
-				<string>:w↵</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>192</integer>
-				<key>Quit</key>
-				<string>:q↵</string>
-			</dict>
-		</array>
-	</dict>
-	<key>Level11</key>
-	<dict>
-		<key>title</key>
-		<string>Bookmarks</string>
-		<key>keys</key>
-		<array>
-			<dict>
-				<key>id</key>
-				<integer>193</integer>
-				<key>Show bookmarks</key>
-				<string>:marks↵</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>194</integer>
-				<key>Mark position &apos;a&apos;</key>
-				<string>ma</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>195</integer>
-				<key>Go to bookmark position &apos;a&apos;</key>
-				<string>`a</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>196</integer>
-				<key>Go to previous position</key>
-				<string>``</string>
-			</dict>
-		</array>
-	</dict>
-	<key>Level12</key>
-	<dict>
-		<key>title</key>
-		<string>Replace</string>
-		<key>keys</key>
-		<array>
-			<dict>
-				<key>id</key>
-				<integer>197</integer>
-				<key>Replace first &apos;foo&apos; with &apos;bar&apos; on line</key>
-				<string>:s/foo/bar↵</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>198</integer>
-				<key>Replace all &apos;foo&apos; with &apos;bar&apos; on line</key>
-				<string>:s/foo/bar/g↵</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>199</integer>
-				<key>Replace all &apos;foo&apos; with &apos;bar&apos; in file</key>
-				<string>:%s/foo/bar/g↵</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>220</integer>
-				<key>Replace first &apos;foo&apos; with &apos;bar&apos; on every line</key>
-				<string>:%s/foo/bar↵</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>201</integer>
-				<key>Confirm replace all &apos;foo&apos; with &apos;bar&apos; on line</key>
-				<string>:s/foo/bar/gc↵</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>201</integer>
-				<key>Ignore case replace first &apos;foo&apos; with &apos;bar&apos;</key>
-				<string>:s/foo/bar/i↵</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>202</integer>
-				<key>Replace current char with &apos;x&apos;</key>
-				<string>rx</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>203</integer>
-				<key>Confirm replace all &apos;foo&apos; with &apos;bar&apos; in file</key>
-				<string>:%s/foo/bar/gc↵</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>204</integer>
-				<key>Replace all &apos;foo&apos; with &apos;bar&apos; between lines 2 and 9</key>
-				<string>:2,9s/foo/bar/g↵</string>
-			</dict>
-		</array>
-	</dict>
-	<key>Level13</key>
-	<dict>
-		<key>title</key>
-		<string>Search</string>
-		<key>keys</key>
-		<array>
-			<dict>
-				<key>id</key>
-				<integer>205</integer>
-				<key>Search forwards for &apos;foo&apos;</key>
-				<string>/foo↵</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>206</integer>
-				<key>Search backwards for &apos;foo&apos;</key>
-				<string>?foo↵</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>207</integer>
-				<key>Search next</key>
-				<string>n</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>208</integer>
-				<key>Search previous</key>
-				<string>N</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>209</integer>
-				<key>Search for current word forward</key>
-				<string>*</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>220</integer>
-				<key>Turn off incremental search</key>
-				<string>:set nois↵</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>211</integer>
-				<key>Set ignore case</key>
-				<string>:set ic↵</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>212</integer>
-				<key>Set incremental search</key>
-				<string>:set is↵</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>213</integer>
-				<key>Set highlight matching phrases</key>
-				<string>:set hls↵</string>
-			</dict>
-		</array>
-	</dict>
-	<key>Level14</key>
-	<dict>
-		<key>title</key>
-		<string>Misc</string>
-		<key>keys</key>
-		<array>
-			<dict>
-				<key>id</key>
-				<integer>214</integer>
-				<key>Start editing where foo is defined</key>
-				<string>vim -t foo↵</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>215</integer>
-				<key>Lookup &apos;cmd&apos; in help</key>
-				<string>:help cmd↵</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>216</integer>
-				<key>Run make</key>
-				<string>:make↵</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>217</integer>
-				<key>Execute &apos;ls&apos; command</key>
-				<string>:!ls↵</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>218</integer>
-				<key>Move autocomplete backward</key>
-				<string>⌃p</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>219</integer>
-				<key>Move language autocomplete forward</key>
-				<string>⌃x</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>220</integer>
-				<key>Move language autocomplete backward</key>
-				<string>⌃o</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>221</integer>
-				<key>Look up word in man pages</key>
-				<string>K</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>222</integer>
-				<key>Yank to beginning of next word</key>
-				<string>yw</string>
-			</dict>
-			<dict>
-				<key>id</key>
-				<integer>223</integer>
-				<key>See diff of changes you made in vim</key>
-				<string>:w !diff % -</string>
-			</dict>
-		</array>
-	</dict>
 </dict>
 </plist>
