@@ -10,6 +10,6 @@
 
 @interface Course : NSObject
 @property(nonatomic, strong)NSString *title;
+@property(nonatomic, strong)NSString *description;
 @property(nonatomic, strong)NSString *identifier;
-@property(nonatomic, strong)NSArray *QAs;
 @end

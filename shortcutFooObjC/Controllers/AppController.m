@@ -7,6 +7,15 @@
 //
 
 #import "AppController.h"
+#import "Parser.h"
+
+@interface AppController(){
+@private
+    Parser* parser;
+    NSArray* courses;
+}
+
+@end
 
 @implementation AppController
 #pragma mark -
@@ -15,7 +24,8 @@
 {
     self = [super init];
     if (self) {
-        
+        parser = [[Parser alloc]init];
+        courses = [Parser parse];
     }
     return self;
 }
@@ -32,4 +42,9 @@
 - (id)copyWithZone:(NSZone *)zone {
     return self;
 }
+
+-(NSArray*)getCourses{
+    return courses;
+}
+
 @end

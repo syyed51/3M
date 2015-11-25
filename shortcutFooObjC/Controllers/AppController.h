@@ -10,4 +10,5 @@
 
 @interface AppController : NSObject
 + (id)sharedController;
+-(NSArray*)getCourses;
 @end

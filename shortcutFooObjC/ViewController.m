@@ -12,7 +12,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    NSArray * arr = [[AppController sharedController] getCourses];
 }
 
 - (void)setRepresentedObject:(id)representedObject {

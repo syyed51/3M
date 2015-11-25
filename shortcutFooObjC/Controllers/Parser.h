@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 #import "Constants.h"
 @interface Parser : NSObject
-+(NSArray*)parse;
+-(NSArray*)parse;
 @end
