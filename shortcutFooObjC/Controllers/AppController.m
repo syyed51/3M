@@ -8,11 +8,12 @@
 
 #import "AppController.h"
 #import "Parser.h"
-
+#import "Course.h"
 @interface AppController(){
 @private
     Parser* parser;
     NSArray* courses;
+    NSArray* levels; // Levels in selected course
 }
 
 @end
@@ -25,7 +26,7 @@
     self = [super init];
     if (self) {
         parser = [[Parser alloc]init];
-        courses = [Parser parse];
+        courses = [parser parseCourses];
     }
     return self;
 }
@@ -45,6 +46,10 @@
 
 -(NSArray*)getCourses{
     return courses;
+}
+-(NSArray*)getLevelsCourse:(Course*)course{
+    levels = [parser parseLevelsInCourse:course];
+    return levels;
 }
 
 @end

@@ -7,12 +7,21 @@
 //
 
 #import "ViewController.h"
-
+#import "Course.h"
+#import "Level.h"
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSArray * arr = [[AppController sharedController] getCourses];
+    //Get list of courses.
+    NSArray * arrCourses = [[AppController sharedController] getCourses];
+    //Select a course.
+    Course * c = [arrCourses firstObject];
+    
+    //Load first level in the course.
+    Level* l1 = [[AppController sharedController] getLevelsCourse:c];
+    
+    
 }
 
 - (void)setRepresentedObject:(id)representedObject {

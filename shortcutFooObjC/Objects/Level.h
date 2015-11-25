@@ -10,6 +10,6 @@
 
 @interface Level : NSObject
 @property(nonatomic, strong) NSString* title;
-@property(nonatomic, strong) NSString* Description;
-@property(nonatomic, strong) NSArray* QAs;
+@property(nonatomic, strong) NSString* detail;
+@property(nonatomic, strong) NSArray* dAs;
 @end

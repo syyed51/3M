@@ -8,7 +8,7 @@
 
 #ifndef shortcutFooObjC_Constants_h
 #define shortcutFooObjC_Constants_h
-#define kFileNameCourses @"Cources"
-#define kPlist @"plsit"
+#define kFileNameCourses @"Courses"
+#define kPlist @"plist"
 
 #endif

@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 #import "Constants.h"
+@class Course;
 @interface Parser : NSObject
--(NSArray*)parse;
+-(NSArray*)parseCourses;
+-(NSArray*)parseLevelsInCourse:(Course*)course;
 @end

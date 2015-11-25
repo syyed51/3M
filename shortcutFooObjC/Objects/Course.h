@@ -10,6 +10,7 @@
 
 @interface Course : NSObject
 @property(nonatomic, strong)NSString *title;
-@property(nonatomic, strong)NSString *description;
-@property(nonatomic, strong)NSString *identifier;
+@property(nonatomic, strong)NSString *detail;
+@property(nonatomic, strong)NSNumber *identifier;
+@property(nonatomic, strong)NSString *coursefilename;
 @end

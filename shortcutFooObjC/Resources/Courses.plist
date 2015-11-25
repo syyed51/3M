@@ -2,17 +2,17 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>New item</key>
+	<key>courses</key>
 	<array>
 		<dict>
 			<key>title</key>
 			<string>vim</string>
-			<key>Description</key>
+			<key>description</key>
 			<string>Learn Vim command line editor</string>
 			<key>courseid</key>
-			<string>vim</string>
+			<integer>1001</integer>
 			<key>coursefilename</key>
-			<string>vim.plist</string>
+			<string>Vim</string>
 		</dict>
 	</array>
 </dict>
