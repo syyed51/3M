@@ -7,7 +7,7 @@
 		<dict>
 			<key>title</key>
 			<string>Beginner Text Navigation</string>
-			<key>keys</key>
+			<key>QAs</key>
 			<array>
 				<dict>
 					<key>id</key>
@@ -92,7 +92,7 @@
 		<dict>
 			<key>title</key>
 			<string>Beginner Text Editing</string>
-			<key>keys</key>
+			<key>QAs</key>
 			<array>
 				<dict>
 					<key>id</key>
@@ -165,7 +165,7 @@
 		<dict>
 			<key>title</key>
 			<string>Intermediate Text Navigation I</string>
-			<key>keys</key>
+			<key>QAs</key>
 			<array>
 				<dict>
 					<key>id</key>
@@ -220,7 +220,7 @@
 		<dict>
 			<key>title</key>
 			<string>Intermediate Text Navigation II</string>
-			<key>keys</key>
+			<key>QAs</key>
 			<array>
 				<dict>
 					<key>id</key>
@@ -293,7 +293,7 @@
 		<dict>
 			<key>title</key>
 			<string>Intermediate Text Editing I</string>
-			<key>keys</key>
+			<key>QAs</key>
 			<array>
 				<dict>
 					<key>id</key>
@@ -348,7 +348,7 @@
 		<dict>
 			<key>title</key>
 			<string>Intermediate Text Editing II</string>
-			<key>keys</key>
+			<key>QAs</key>
 			<array>
 				<dict>
 					<key>id</key>
@@ -403,7 +403,7 @@
 		<dict>
 			<key>title</key>
 			<string>Advanced Text Navigation</string>
-			<key>keys</key>
+			<key>QAs</key>
 			<array>
 				<dict>
 					<key>id</key>
@@ -440,7 +440,7 @@
 		<dict>
 			<key>title</key>
 			<string>Visual Mode</string>
-			<key>keys</key>
+			<key>QAs</key>
 			<array>
 				<dict>
 					<key>id</key>
@@ -507,7 +507,7 @@
 		<dict>
 			<key>title</key>
 			<string>Window Management</string>
-			<key>keys</key>
+			<key>QAs</key>
 			<array>
 				<dict>
 					<key>id</key>
@@ -556,7 +556,7 @@
 		<dict>
 			<key>title</key>
 			<string>File Management</string>
-			<key>keys</key>
+			<key>QAs</key>
 			<array>
 				<dict>
 					<key>id</key>
@@ -629,7 +629,7 @@
 		<dict>
 			<key>title</key>
 			<string>Bookmarks</string>
-			<key>keys</key>
+			<key>QAs</key>
 			<array>
 				<dict>
 					<key>id</key>
@@ -660,7 +660,7 @@
 		<dict>
 			<key>title</key>
 			<string>Replace</string>
-			<key>keys</key>
+			<key>QAs</key>
 			<array>
 				<dict>
 					<key>id</key>
@@ -721,7 +721,7 @@
 		<dict>
 			<key>title</key>
 			<string>Search</string>
-			<key>keys</key>
+			<key>QAs</key>
 			<array>
 				<dict>
 					<key>id</key>
@@ -782,7 +782,7 @@
 		<dict>
 			<key>title</key>
 			<string>Misc</string>
-			<key>keys</key>
+			<key>QAs</key>
 			<array>
 				<dict>
 					<key>id</key>

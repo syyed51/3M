@@ -25,8 +25,8 @@
 		8D8438751C0578DC003C82C6 /* Course.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D84386F1C0578DC003C82C6 /* Course.m */; };
 		8D8438761C0578DC003C82C6 /* Level.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8438711C0578DC003C82C6 /* Level.m */; };
 		8D8438771C0578DC003C82C6 /* Level.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8438711C0578DC003C82C6 /* Level.m */; };
-		8D8438781C0578DC003C82C6 /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8438731C0578DC003C82C6 /* Question.m */; };
-		8D8438791C0578DC003C82C6 /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8438731C0578DC003C82C6 /* Question.m */; };
+		8D8438781C0578DC003C82C6 /* QA.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8438731C0578DC003C82C6 /* QA.m */; };
+		8D8438791C0578DC003C82C6 /* QA.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8438731C0578DC003C82C6 /* QA.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,8 +64,8 @@
 		8D84386F1C0578DC003C82C6 /* Course.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Course.m; path = Objects/Course.m; sourceTree = "<group>"; };
 		8D8438701C0578DC003C82C6 /* Level.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Level.h; path = Objects/Level.h; sourceTree = "<group>"; };
 		8D8438711C0578DC003C82C6 /* Level.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Level.m; path = Objects/Level.m; sourceTree = "<group>"; };
-		8D8438721C0578DC003C82C6 /* Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Question.h; path = Objects/Question.h; sourceTree = "<group>"; };
-		8D8438731C0578DC003C82C6 /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Question.m; path = Objects/Question.m; sourceTree = "<group>"; };
+		8D8438721C0578DC003C82C6 /* QA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QA.h; path = Objects/QA.h; sourceTree = "<group>"; };
+		8D8438731C0578DC003C82C6 /* QA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QA.m; path = Objects/QA.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,8 +177,8 @@
 				8D84386F1C0578DC003C82C6 /* Course.m */,
 				8D8438701C0578DC003C82C6 /* Level.h */,
 				8D8438711C0578DC003C82C6 /* Level.m */,
-				8D8438721C0578DC003C82C6 /* Question.h */,
-				8D8438731C0578DC003C82C6 /* Question.m */,
+				8D8438721C0578DC003C82C6 /* QA.h */,
+				8D8438731C0578DC003C82C6 /* QA.m */,
 			);
 			name = Objects;
 			sourceTree = "<group>";
@@ -291,7 +291,7 @@
 				8D8438271C047783003C82C6 /* AppDelegate.m in Sources */,
 				8D8438621C0578A2003C82C6 /* AppController.m in Sources */,
 				8D8438741C0578DC003C82C6 /* Course.m in Sources */,
-				8D8438781C0578DC003C82C6 /* Question.m in Sources */,
+				8D8438781C0578DC003C82C6 /* QA.m in Sources */,
 				8D8438761C0578DC003C82C6 /* Level.m in Sources */,
 				8D8438641C0578A2003C82C6 /* Parser.m in Sources */,
 			);
@@ -304,7 +304,7 @@
 				8D8438771C0578DC003C82C6 /* Level.m in Sources */,
 				8D8438751C0578DC003C82C6 /* Course.m in Sources */,
 				8D84383D1C047784003C82C6 /* shortcutFooObjCTests.m in Sources */,
-				8D8438791C0578DC003C82C6 /* Question.m in Sources */,
+				8D8438791C0578DC003C82C6 /* QA.m in Sources */,
 				8D8438651C0578A2003C82C6 /* Parser.m in Sources */,
 				8D8438631C0578A2003C82C6 /* AppController.m in Sources */,
 			);
@@ -488,6 +488,7 @@
 				8D8438421C047784003C82C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D8438431C047784003C82C6 /* Build configuration list for PBXNativeTarget "shortcutFooObjCTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +497,7 @@
 				8D8438451C047784003C82C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

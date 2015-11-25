@@ -9,13 +9,17 @@
 #import "Parser.h"
 #import "Course.h"
 #import "Level.h"
-#import "Question.h"
+#import "QA.h"
 
 #define kTagCourses @"courses"
 #define kTagTitle @"title"
 #define kTagDescription @"Description"
 #define kTagCourseId @"courseid"
 #define kTagCourseFileName @"coursefilename"
+#define kTagLevels @"Levels"
+#define kTagQAs     @"QAs"
+#define kTagID      @"id"
+
 
 @implementation Parser
 -(NSArray*)parseCourses{
@@ -43,11 +47,11 @@
     NSDictionary *dlevels = [NSDictionary dictionaryWithContentsOfFile:[[NSBundle mainBundle]
                                                                          pathForResource:course.coursefilename
                                                                          ofType:kPlist]];
-    NSArray * alevels = [dlevels objectForKey:kTagCourses];
+    NSArray * alevels = [dlevels objectForKey:kTagLevels];
     
     NSMutableArray *levels = [NSMutableArray array];
-    for (NSDictionary * d in alevels) {
-        Course * c = [self parseCourse:d];
+    for (NSDictionary * l in alevels) {
+        Level * c = [self parseLevel:l];
         [levels addObject:c];
     }
     return levels;
@@ -57,8 +61,18 @@
 -(Level*)parseLevel:(NSDictionary*)level{
     Level * l = [[Level alloc]init];
     l.title = [level objectForKey:kTagTitle];
-    l.detail = [level objectForKey:kTagDescription];
-//    l.identifier = [level objectForKey:kTagCourseId];
+    NSMutableArray * arr = [NSMutableArray array];
+    for (NSDictionary* d in level) {
+        QA* qa = [self parseQuestionAnswer:d];
+        [arr addObject:qa];
+    }
     return l;
+}
+-(QA*)parseQuestionAnswer:(NSDictionary*)aq{
+    QA * qa = [QA new];
+    NSArray* keys = [aq allKeys];
+    
+    qa.hint = [aq objectForKey:@""];
+    return qa;
 }
 @end

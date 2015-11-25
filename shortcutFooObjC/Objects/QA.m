@@ -6,8 +6,8 @@
 //
 //
 
-#import "Question.h"
+#import "QA.h"
 
-@implementation Question
+@implementation QA
 
 @end

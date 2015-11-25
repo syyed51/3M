@@ -14,7 +14,7 @@
     if (self) {
         _title = [NSString string];
         _detail = [NSString string];
-        _dAs = [NSArray array];
+        _qAs = [NSArray array];
     }
     return self;
 }
