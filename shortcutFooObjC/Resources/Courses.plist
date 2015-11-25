@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>New item</key>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>vim</string>
+			<key>Description</key>
+			<string>Learn Vim command line editor</string>
+			<key>courseid</key>
+			<string>vim</string>
+			<key>coursefilename</key>
+			<string>vim.plist</string>
+		</dict>
+	</array>
+</dict>
+</plist>

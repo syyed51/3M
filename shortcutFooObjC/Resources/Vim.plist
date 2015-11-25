@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>courseid</key>
+	<string>vim</string>
+	<key>title</key>
+	<string>Vim</string>
+	<key>Level1</key>
+	<dict>
+		<key>title</key>
+		<string>Beginner Text Navigation</string>
+		<key>keys</key>
+		<array>
+			<dict>
+				<key>id</key>
+				<string>11</string>
+				<key>Move up one line</key>
+				<string>k</string>
+			</dict>
+			<dict>
+				<key>Move down one line</key>
+				<string>j</string>
+			</dict>
+			<dict>
+				<key>Move left one character</key>
+				<string>h</string>
+			</dict>
+			<dict>
+				<key>Move right one character</key>
+				<string>l</string>
+			</dict>
+			<dict>
+				<key>Move to end of word</key>
+				<string>e</string>
+			</dict>
+			<dict>
+				<key>Move to beginning of word</key>
+				<string>b</string>
+			</dict>
+			<dict>
+				<key>Move to end of line</key>
+				<string>$</string>
+			</dict>
+			<dict>
+				<key>Move to beginning of line</key>
+				<string>0</string>
+			</dict>
+			<dict>
+				<key>Move to first line of screen</key>
+				<string>H</string>
+			</dict>
+			<dict>
+				<key>Move to middle line of screen</key>
+				<string>M</string>
+			</dict>
+			<dict>
+				<key>Move to last line of screen</key>
+				<string>L</string>
+			</dict>
+			<dict>
+				<key>Move to next word</key>
+				<string>w</string>
+			</dict>
+			<dict>
+				<key>Move to previous word</key>
+				<string>b</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Level2</key>
+	<dict>
+		<key>title</key>
+		<string>Beginner Text Editing</string>
+		<key>keys</key>
+		<array>
+			<dict>
+				<key>Change rest of current word</key>
+				<string>ce</string>
+			</dict>
+			<dict>
+				<key>Delete word</key>
+				<string>ce</string>
+			</dict>
+			<dict>
+				<key>Insert</key>
+				<string>i</string>
+			</dict>
+			<dict>
+				<key>Insert at start of line</key>
+				<string>I</string>
+			</dict>
+			<dict>
+				<key>Append</key>
+				<string>a</string>
+			</dict>
+			<dict>
+				<key>Append at end of line</key>
+				<string>A</string>
+			</dict>
+			<dict>
+				<key>Insert new line below</key>
+				<string>o</string>
+			</dict>
+			<dict>
+				<key>Insert new line above</key>
+				<string>O</string>
+			</dict>
+			<dict>
+				<key>Change char and return to cmd mode</key>
+				<string>r</string>
+			</dict>
+			<dict>
+				<key>Enter replace mode</key>
+				<string>R</string>
+			</dict>
+			<dict>
+				<key>Go to command mode</key>
+				<string>ESC</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Level3</key>
+	<dict>
+		<key>title</key>
+		<string>Intermediate Text Navigation I</string>
+		<key>keys</key>
+		<array>
+			<dict>
+				<key>Move to next &apos;w&apos; on line</key>
+				<string>fw</string>
+			</dict>
+			<dict>
+				<key>Move to previous &apos;w&apos; on line</key>
+				<string>Fw</string>
+			</dict>
+			<dict>
+				<key>Move before next &apos;w&apos; on line</key>
+				<string>tw</string>
+			</dict>
+			<dict>
+				<key>Move before previous &apos;w&apos; on line</key>
+				<string>Tw</string>
+			</dict>
+			<dict>
+				<key>Repeat last f, F, t, or T</key>
+				<string>;</string>
+			</dict>
+			<dict>
+				<key>Repeat last f, F, t, or T reversed</key>
+				<string>,</string>
+			</dict>
+			<dict>
+				<key>Move down 5 lines</key>
+				<string>5j</string>
+			</dict>
+			<dict>
+				<key>Move up 5 lines</key>
+				<string>5k</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Level4</key>
+	<dict>
+		<key>title</key>
+		<string>Intermediate Text Navigation II</string>
+		<key>keys</key>
+		<array>
+			<dict>
+				<key>Move 5 words forward</key>
+				<string>5w</string>
+			</dict>
+			<dict>
+				<key>Move 5 words backward</key>
+				<string>5b</string>
+			</dict>
+			<dict>
+				<key>Scroll down</key>
+				<string>^e</string>
+			</dict>
+			<dict>
+				<key>Scroll up</key>
+				<string>^y</string>
+			</dict>
+			<dict>
+				<key>Go to beginning of file</key>
+				<string>gg</string>
+			</dict>
+			<dict>
+				<key>Go to end of file</key>
+				<string>G</string>
+			</dict>
+			<dict>
+				<key>Go to line 12</key>
+				<string>12G</string>
+			</dict>
+			<dict>
+				<key>Move forward one screen</key>
+				<string>^f</string>
+			</dict>
+			<dict>
+				<key>Move backward one screen</key>
+				<string>^b</string>
+			</dict>
+			<dict>
+				<key>Move to next sentence</key>
+				<string>)</string>
+			</dict>
+			<dict>
+				<key>Move to next Paragraph</key>
+				<string>}</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Level5</key>
+	<dict>
+		<key>title</key>
+		<string>Intermediate Text Editing I</string>
+		<key>keys</key>
+		<array>
+			<dict>
+				<key>Yank (copy) line</key>
+				<string>yy</string>
+			</dict>
+			<dict>
+				<key>Yank (copy) to end of line</key>
+				<string>y$</string>
+			</dict>
+			<dict>
+				<key>Yank (copy) to end of word</key>
+				<string>ye</string>
+			</dict>
+			<dict>
+				<key>Delete (cut) current line</key>
+				<string>dd</string>
+			</dict>
+			<dict>
+				<key>Delete 5 lines</key>
+				<string>5dd</string>
+			</dict>
+			<dict>
+				<key>Delete (cut) next two words</key>
+				<string>d2w</string>
+			</dict>
+			<dict>
+				<key>Delete (cut) to end of line (one char)</key>
+				<string>D</string>
+			</dict>
+			<dict>
+				<key>Paste</key>
+				<string>p</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Level6</key>
+	<dict>
+		<key>title</key>
+		<string>Intermediate Text Editing II</string>
+		<key>keys</key>
+		<array>
+			<dict>
+				<key>Paste before cursor</key>
+				<string>P</string>
+			</dict>
+			<dict>
+				<key>Undo</key>
+				<string>u</string>
+			</dict>
+			<dict>
+				<key>Undo all changes to current line</key>
+				<string>U</string>
+			</dict>
+			<dict>
+				<key>Redo</key>
+				<string>^r</string>
+			</dict>
+			<dict>
+				<key>Repeat last change</key>
+				<string>.</string>
+			</dict>
+			<dict>
+				<key>Repeat last change 5 times</key>
+				<string>5.</string>
+			</dict>
+			<dict>
+				<key>Delete (cut) to end of word</key>
+				<string>de</string>
+			</dict>
+			<dict>
+				<key>Paste</key>
+				<string>d$</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Level7</key>
+	<dict>
+		<key>title</key>
+		<string>Advanced Text Navigation</string>
+		<key>keys</key>
+		<array>
+			<dict>
+				<key>Move to first non whitespace char</key>
+				<string>^</string>
+			</dict>
+			<dict>
+				<key>Go to column 20</key>
+				<string>20|</string>
+			</dict>
+			<dict>
+				<key>Go to matching parenthesis or bracket</key>
+				<string>%</string>
+			</dict>
+			<dict>
+				<key>Move to older position</key>
+				<string>^o</string>
+			</dict>
+			<dict>
+				<key>Scroll current line to top of window</key>
+				<string>zt</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Level8</key>
+	<dict>
+		<key>title</key>
+		<string>Visual Mode</string>
+		<key>keys</key>
+		<array>
+			<dict>
+				<key>Write selection to &apos;filename&apos;</key>
+				<string>:w filename↵</string>
+			</dict>
+			<dict>
+				<key>Visual mode select characters</key>
+				<string>v</string>
+			</dict>
+			<dict>
+				<key>Visual mode highlight lines</key>
+				<string>V</string>
+			</dict>
+			<dict>
+				<key>Swap case</key>
+				<string>~</string>
+			</dict>
+			<dict>
+				<key>Shift right</key>
+				<string>&gt;</string>
+			</dict>
+			<dict>
+				<key>Shift left</key>
+				<string>&lt;</string>
+			</dict>
+			<dict>
+				<key>Change highlighted text</key>
+				<string>c</string>
+			</dict>
+			<dict>
+				<key>Yank (copy) highlighted text</key>
+				<string>y</string>
+			</dict>
+			<dict>
+				<key>Cut highlighted text</key>
+				<string>d</string>
+			</dict>
+			<dict>
+				<key>Re-indent selection</key>
+				<string>=</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Level9</key>
+	<dict>
+		<key>title</key>
+		<string>Window Management</string>
+		<key>keys</key>
+		<array>
+			<dict>
+				<key>Set current buffer to &apos;filename&apos;</key>
+				<string>:e filename↵</string>
+			</dict>
+			<dict>
+				<key>New window above</key>
+				<string>:sp↵</string>
+			</dict>
+			<dict>
+				<key>New window to left</key>
+				<string>:vs↵</string>
+			</dict>
+			<dict>
+				<key>Close current window</key>
+				<string>:q↵</string>
+			</dict>
+			<dict>
+				<key>Close all windows</key>
+				<string>:qa↵</string>
+			</dict>
+			<dict>
+				<key>Switch between windows</key>
+				<string>Ctrl + w</string>
+			</dict>
+			<dict>
+				<key>Increase window size by 10 lines</key>
+				<string>10 Ctrl + w +</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Level10</key>
+	<dict>
+		<key>title</key>
+		<string>File Management</string>
+		<key>keys</key>
+		<array>
+			<dict>
+				<key>Quit without saving</key>
+				<string>:q!↵</string>
+			</dict>
+			<dict>
+				<key>Save and exit</key>
+				<string>:wq↵</string>
+			</dict>
+			<dict>
+				<key>Save and exit if modified</key>
+				<string>:x↵</string>
+			</dict>
+			<dict>
+				<key>Read and insert &apos;filename&apos;</key>
+				<string>:r filename↵</string>
+			</dict>
+			<dict>
+				<key>Execute and insert results of &apos;cmd&apos;</key>
+				<string>:r !cmd↵</string>
+			</dict>
+			<dict>
+				<key>Delete &apos;filename&apos;</key>
+				<string>:!rm filename↵</string>
+			</dict>
+			<dict>
+				<key>Open new file</key>
+				<string>:e↵</string>
+			</dict>
+			<dict>
+				<key>Show file info</key>
+				<string>⌃g</string>
+			</dict>
+			<dict>
+				<key>Show character info</key>
+				<string>ga</string>
+			</dict>
+			<dict>
+				<key>Save changes</key>
+				<string>:w↵</string>
+			</dict>
+			<dict>
+				<key>Quit</key>
+				<string>:q↵</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Level11</key>
+	<dict>
+		<key>title</key>
+		<string>Bookmarks</string>
+		<key>keys</key>
+		<array>
+			<dict>
+				<key>Show bookmarks</key>
+				<string>:marks↵</string>
+			</dict>
+			<dict>
+				<key>Mark position &apos;a&apos;</key>
+				<string>ma</string>
+			</dict>
+			<dict>
+				<key>Go to bookmark position &apos;a&apos;</key>
+				<string>`a</string>
+			</dict>
+			<dict>
+				<key>Go to previous position</key>
+				<string>``</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Level12</key>
+	<dict>
+		<key>title</key>
+		<string>Replace</string>
+		<key>keys</key>
+		<array>
+			<dict>
+				<key>Replace first &apos;foo&apos; with &apos;bar&apos; on line</key>
+				<string>:s/foo/bar↵</string>
+			</dict>
+			<dict>
+				<key>Replace all &apos;foo&apos; with &apos;bar&apos; on line</key>
+				<string>:s/foo/bar/g↵</string>
+			</dict>
+			<dict>
+				<key>Replace all &apos;foo&apos; with &apos;bar&apos; in file</key>
+				<string>:%s/foo/bar/g↵</string>
+			</dict>
+			<dict>
+				<key>Replace first &apos;foo&apos; with &apos;bar&apos; on every line</key>
+				<string>:%s/foo/bar↵</string>
+			</dict>
+			<dict>
+				<key>Confirm replace all &apos;foo&apos; with &apos;bar&apos; on line</key>
+				<string>:s/foo/bar/gc↵</string>
+			</dict>
+			<dict>
+				<key>Ignore case replace first &apos;foo&apos; with &apos;bar&apos;</key>
+				<string>:s/foo/bar/i↵</string>
+			</dict>
+			<dict>
+				<key>Replace current char with &apos;x&apos;</key>
+				<string>rx</string>
+			</dict>
+			<dict>
+				<key>Confirm replace all &apos;foo&apos; with &apos;bar&apos; in file</key>
+				<string>:%s/foo/bar/gc↵</string>
+			</dict>
+			<dict>
+				<key>Replace all &apos;foo&apos; with &apos;bar&apos; between lines 2 and 9</key>
+				<string>:2,9s/foo/bar/g↵</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Level13</key>
+	<dict>
+		<key>title</key>
+		<string>Search</string>
+		<key>keys</key>
+		<array>
+			<dict>
+				<key>Search forwards for &apos;foo&apos;</key>
+				<string>/foo↵</string>
+			</dict>
+			<dict>
+				<key>Search backwards for &apos;foo&apos;</key>
+				<string>?foo↵</string>
+			</dict>
+			<dict>
+				<key>Search next</key>
+				<string>n</string>
+			</dict>
+			<dict>
+				<key>Search previous</key>
+				<string>N</string>
+			</dict>
+			<dict>
+				<key>Search for current word forward</key>
+				<string>*</string>
+			</dict>
+			<dict>
+				<key>Turn off incremental search</key>
+				<string>:set nois↵</string>
+			</dict>
+			<dict>
+				<key>Set ignore case</key>
+				<string>:set ic↵</string>
+			</dict>
+			<dict>
+				<key>Set incremental search</key>
+				<string>:set is↵</string>
+			</dict>
+			<dict>
+				<key>Set highlight matching phrases</key>
+				<string>:set hls↵</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Level14</key>
+	<dict>
+		<key>title</key>
+		<string>Misc</string>
+		<key>keys</key>
+		<array>
+			<dict>
+				<key>Start editing where foo is defined</key>
+				<string>vim -t foo↵</string>
+			</dict>
+			<dict>
+				<key>Lookup &apos;cmd&apos; in help</key>
+				<string>:help cmd↵</string>
+			</dict>
+			<dict>
+				<key>Run make</key>
+				<string>:make↵</string>
+			</dict>
+			<dict>
+				<key>Execute &apos;ls&apos; command</key>
+				<string>:!ls↵</string>
+			</dict>
+			<dict>
+				<key>Move autocomplete backward</key>
+				<string>⌃p</string>
+			</dict>
+			<dict>
+				<key>Move language autocomplete forward</key>
+				<string>⌃x</string>
+			</dict>
+			<dict>
+				<key>Move language autocomplete backward</key>
+				<string>⌃o</string>
+			</dict>
+			<dict>
+				<key>Look up word in man pages</key>
+				<string>K</string>
+			</dict>
+			<dict>
+				<key>Yank to beginning of next word</key>
+				<string>yw</string>
+			</dict>
+			<dict>
+				<key>See diff of changes you made in vim</key>
+				<string>:w !diff % -</string>
+			</dict>
+		</array>
+	</dict>
+</dict>
+</plist>
