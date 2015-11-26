@@ -62,17 +62,18 @@
     Level * l = [[Level alloc]init];
     l.title = [level objectForKey:kTagTitle];
     NSMutableArray * arr = [NSMutableArray array];
-    for (NSDictionary* d in level) {
+    for (NSDictionary* d in [level objectForKey:kTagQAs]) {
         QA* qa = [self parseQuestionAnswer:d];
         [arr addObject:qa];
     }
     return l;
 }
--(QA*)parseQuestionAnswer:(NSDictionary*)aq{
+-(QA*)parseQuestionAnswer:(NSDictionary*)questionsDictonary{
     QA * qa = [QA new];
-    NSArray* keys = [aq allKeys];
     
-    qa.hint = [aq objectForKey:@""];
+    qa.question = [questionsDictonary objectForKey:kTagID];
+    qa.qid = [questionsDictonary objectForKey:kTagID];
+    qa.answer = [questionsDictonary objectForKey:kTagID];
     return qa;
 }
 @end

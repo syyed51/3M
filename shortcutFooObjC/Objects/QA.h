@@ -11,6 +11,6 @@
 @interface QA : NSObject
 @property(nonatomic, strong) NSString* question;
 @property(nonatomic, strong) NSString* answer;
-@property(nonatomic, strong) NSString* hint;
+@property(nonatomic, strong) NSString* question;
 @property(nonatomic, strong) NSString* qid;
 @end
