@@ -786,7 +786,7 @@
 					<key>question</key>
 					<string>Show file info</string>
 					<key>key</key>
-					<string>⌃g</string>
+					<string>^</string>
 				</dict>
 				<dict>
 					<key>id</key>
@@ -1054,7 +1054,7 @@
 					<key>question</key>
 					<string>Move autocomplete backward</string>
 					<key>key</key>
-					<string>⌃p</string>
+					<string>^p</string>
 				</dict>
 				<dict>
 					<key>id</key>
@@ -1062,7 +1062,7 @@
 					<key>question</key>
 					<string>Move language autocomplete forward</string>
 					<key>key</key>
-					<string>⌃x</string>
+					<string>^x</string>
 				</dict>
 				<dict>
 					<key>id</key>
@@ -1070,7 +1070,7 @@
 					<key>question</key>
 					<string>Move language autocomplete backward</string>
 					<key>key</key>
-					<string>⌃o</string>
+					<string>^o</string>
 				</dict>
 				<dict>
 					<key>id</key>

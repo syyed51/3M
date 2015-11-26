@@ -38,7 +38,7 @@
     NSArray* levels = [[AppController sharedController] getLevelsCourse:c];
     
     //select level1
-    level = [levels objectAtIndex:2];
+    level = [levels lastObject];
     
     NSMutableString * title = [NSMutableString string];
     [title appendFormat:@"%@\n",c.title];
@@ -114,5 +114,38 @@
     }
     NSLog(@"Cancel Operation");
 }
+
+
+- (BOOL)control:(NSControl *)control textView:(NSTextView *)fieldEditor doCommandBySelector:(SEL)commandSelector
+{
+    NSLog(@"Selector method is (%@)", NSStringFromSelector( commandSelector ) );
+    if (commandSelector == @selector(insertNewline:)) {
+        NSLog(@"@selector(insertNewline:)");
+        NSString * result = @"";
+        if ([test.answer isEqualToString:@"ESC"]) {
+            result = kTextSuccess;
+            NSMutableString * lbl =[NSMutableString stringWithFormat:@"%@\n",self.resultLbl.stringValue];
+            NSMutableString* str = [NSMutableString stringWithFormat:@"%@  %@    %@\n",result, test.question , @"ESC"];
+            [str appendString:lbl];
+            self.resultLbl.stringValue = str;
+            
+            [self loadRandomQuestion];
+        }
+        
+    } else if (commandSelector == @selector(deleteForward:)) {
+        NSLog(@"@selector(deleteForward:)");
+        
+    } else if (commandSelector == @selector(deleteBackward:)) {
+        NSLog(@"@selector(deleteBackward:)");
+        return NO;
+        
+    } else if (commandSelector == @selector(insertTab:)) {
+               NSLog(@"@selector(insertTab:)");
+    }
+    
+    // return YES if the action was handled; otherwise NO
+    return YES;
+}
+
 
 @end
