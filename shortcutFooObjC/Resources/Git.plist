@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>title</key>
+	<string>Git Cheat Sheet</string>
+	<key>courseid</key>
+	<string>Git</string>
+	<key>Levels</key>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>Git Basics</string>
+			<key>QAs</key>
+			<array>
+				<dict>
+					<key>id</key>
+					<integer>101</integer>
+					<key>question</key>
+					<string>Initialize a repository</string>
+					<key>key</key>
+					<string>git init</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>102</integer>
+					<key>question</key>
+					<string>Show status of working tree</string>
+					<key>key</key>
+					<string>git status</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>103</integer>
+					<key>question</key>
+					<string>Start tracking file.txt</string>
+					<key>key</key>
+					<string>git add file.txt</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>104</integer>
+					<key>question</key>
+					<string>Move right one character</string>
+					<key>New item</key>
+					<string>Stage modified file main.txt</string>
+					<key>key</key>
+					<string>git add main.txt</string>
+				</dict>
+				<dict>
+					<key>key</key>
+					<string>git diff</string>
+					<key>id</key>
+					<integer>105</integer>
+					<key>question</key>
+					<string>Show what&apos;s changed but not yet staged</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>106</integer>
+					<key>question</key>
+					<string>Commit changes</string>
+					<key>key</key>
+					<string>git commit</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>107</integer>
+					<key>question</key>
+					<string>Stage files and commit</string>
+					<key>key</key>
+					<string>git commit -a</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>108</integer>
+					<key>question</key>
+					<string>Rename main.txt to file.txt</string>
+					<key>key</key>
+					<string>git mv main.txt file.txt</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>109</integer>
+					<key>question</key>
+					<string>Pull data from remote &apos;develop&apos; without merging</string>
+					<key>key</key>
+					<string>git fetch develop</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>110</integer>
+					<key>question</key>
+					<string>Fetch and merge branch &apos;develop&apos; from origin</string>
+					<key>key</key>
+					<string>git pull origin develop</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>111</integer>
+					<key>question</key>
+					<string>Create local copy of remote repository at &apos;url&apos;</string>
+					<key>key</key>
+					<string>git clone url</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Branching</string>
+			<key>QAs</key>
+			<array>
+				<dict>
+					<key>id</key>
+					<integer>114</integer>
+					<key>question</key>
+					<string>Show current branches</string>
+					<key>key</key>
+					<string>git branch</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>115</integer>
+					<key>question</key>
+					<string>Push master branch to origin server</string>
+					<key>key</key>
+					<string>git push origin master</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>116</integer>
+					<key>question</key>
+					<string>Show last commit on all branches</string>
+					<key>key</key>
+					<string>git branch -v</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>117</integer>
+					<key>question</key>
+					<string>Switch to branch &apos;master&apos;</string>
+					<key>key</key>
+					<string>git checkout master</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>118</integer>
+					<key>question</key>
+					<string>Create new branch called &apos;feature1&apos;</string>
+					<key>key</key>
+					<string>git branch feature1</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>119</integer>
+					<key>question</key>
+					<string>Create branch &apos;feature2&apos; and switch to it</string>
+					<key>key</key>
+					<string>git checkout -b feature2</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>120</integer>
+					<key>question</key>
+					<string>Delete branch &apos;mybranch&apos;</string>
+					<key>key</key>
+					<string>git branch -d mybranch</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>121</integer>
+					<key>question</key>
+					<string>Show branches already merged into current branch</string>
+					<key>key</key>
+					<string>git branch --merged</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>122</integer>
+					<key>question</key>
+					<string>Show branches not yet merged into current branch</string>
+					<key>key</key>
+					<string>git branch --no-merged</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>123</integer>
+					<key>question</key>
+					<string>Force delete branch &apos;fix&apos; that is not yet merged</string>
+					<key>key</key>
+					<string>git branch -D fix</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>1241</integer>
+					<key>question</key>
+					<string>Push local branch &apos;feature1&apos; to origin</string>
+					<key>key</key>
+					<string>git push origin feature1</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>1242</integer>
+					<key>question</key>
+					<string>Push develop branch to remote staging master</string>
+					<key>key</key>
+					<string>git push staging develop:master</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>1243</integer>
+					<key>question</key>
+					<string>Create local branch &apos;fix1&apos; based off origin branch</string>
+					<key>key</key>
+					<string>git checkout -b fix1 origin/fix1</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>1244</integer>
+					<key>question</key>
+					<string>Create tracking branch &apos;fix2&apos; based off origin</string>
+					<key>key</key>
+					<string>git checkout --track origin/fix2</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>1245</integer>
+					<key>question</key>
+					<string>Delete remote branch &apos;fix2&apos; from origin</string>
+					<key>key</key>
+					<string>git push origin :fix2</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Merging / Rebasing</string>
+			<key>QAs</key>
+			<array>
+				<dict>
+					<key>id</key>
+					<integer>125</integer>
+					<key>question</key>
+					<string>Use graphical merge tool</string>
+					<key>key</key>
+					<string>git mergetool</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>126</integer>
+					<key>question</key>
+					<string>Finalize merge after resolving conflicts</string>
+					<key>key</key>
+					<string>git commit</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>127</integer>
+					<key>question</key>
+					<string>Merge branch &apos;feature1&apos; with current branch</string>
+					<key>key</key>
+					<string>git merge feature1</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>128</integer>
+					<key>question</key>
+					<string>Mark file.txt as resolved after merge</string>
+					<key>key</key>
+					<string>git add file.txt</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>129</integer>
+					<key>question</key>
+					<string>Rebase changes made on current branch over develop</string>
+					<key>key</key>
+					<string>git rebase develop</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>130</integer>
+					<key>question</key>
+					<string>Rebase master onto develop without checking it out</string>
+					<key>key</key>
+					<string>git rebase master develop</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>131</integer>
+					<key>question</key>
+					<string>Rebase master onto branch 1b made from branch 1a</string>
+					<key>key</key>
+					<string>git rebase --onto master 1a 1b</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Remotes</string>
+			<key>QAs</key>
+			<array>
+				<dict>
+					<key>id</key>
+					<integer>133</integer>
+					<key>question</key>
+					<string>Show remote servers you have configured</string>
+					<key>key</key>
+					<string>git remote</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>134</integer>
+					<key>question</key>
+					<string>Show remote servers with URL displayed</string>
+					<key>key</key>
+					<string>git remote -v</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>135</integer>
+					<key>question</key>
+					<string>Add remote server &apos;url&apos; with shortname &apos;myurl&apos;</string>
+					<key>key</key>
+					<string>git remote add myurl url</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>136</integer>
+					<key>question</key>
+					<string>Rename remote &apos;server1&apos; to &apos;server2&apos;</string>
+					<key>key</key>
+					<string>git remote rename server1 server2</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>137</integer>
+					<key>question</key>
+					<string>Remove remote &apos;server1&apos;</string>
+					<key>key</key>
+					<string>git remote rm server1</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>138</integer>
+					<key>question</key>
+					<string>Show info about remote origin</string>
+					<key>key</key>
+					<string>git remote show origin</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>143</integer>
+					<key>question</key>
+					<string>Move to next Paragraph</string>
+					<key>key</key>
+					<string>}</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Commit Logs</string>
+			<key>QAs</key>
+			<array>
+				<dict>
+					<key>id</key>
+					<integer>144</integer>
+					<key>question</key>
+					<string>Show commit logs</string>
+					<key>key</key>
+					<string>git log</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>145</integer>
+					<key>question</key>
+					<string>Show last two commits with diffs</string>
+					<key>key</key>
+					<string>git log -p -2</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>146</integer>
+					<key>question</key>
+					<string>Show commit logs with stats</string>
+					<key>key</key>
+					<string>git log --stat</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>147</integer>
+					<key>question</key>
+					<string>Show commit logs one per line</string>
+					<key>key</key>
+					<string>git log --pretty=oneline</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>148</integer>
+					<key>question</key>
+					<string>Show commit logs with ascii graph</string>
+					<key>key</key>
+					<string>git log --graph</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>149</integer>
+					<key>question</key>
+					<string>Show commit log for the last week</string>
+					<key>key</key>
+					<string>git log --since=1.week</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>150</integer>
+					<key>question</key>
+					<string>Show prev commits for each lines 10-15 of file.rb</string>
+					<key>key</key>
+					<string>git blame -L 10,15 file.rb</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Undo / Change History</string>
+			<key>QAs</key>
+			<array>
+				<dict>
+					<key>id</key>
+					<integer>152</integer>
+					<key>question</key>
+					<string>Remove main.txt from staging but keep in working</string>
+					<key>key</key>
+					<string>git rm --cached main.txt</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>153</integer>
+					<key>question</key>
+					<string>Replace last commit with whats in staging</string>
+					<key>key</key>
+					<string>git commit --amend</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>154</integer>
+					<key>question</key>
+					<string>Discard changes to file.txt</string>
+					<key>key</key>
+					<string>git checkout -- file.txt</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>155</integer>
+					<key>question</key>
+					<string>Unstage file.txt</string>
+					<key>key</key>
+					<string>git reset HEAD file.txt</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>156</integer>
+					<key>question</key>
+					<string>Modify last commit message</string>
+					<key>key</key>
+					<string>git commit --amend</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>157</integer>
+					<key>question</key>
+					<string>Make changes to the last 3 commits</string>
+					<key>key</key>
+					<string>git rebase -i HEAD~3</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Using Tags</string>
+			<key>QAs</key>
+			<array>
+				<dict>
+					<key>id</key>
+					<integer>160</integer>
+					<key>question</key>
+					<string>Show available tags</string>
+					<key>key</key>
+					<string>git tag</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>161</integer>
+					<key>question</key>
+					<string>Create annotated tag &apos;v3.0&apos;</string>
+					<key>key</key>
+					<string>git tag -a v3.0</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>162</integer>
+					<key>question</key>
+					<string>Show info for tag v3.0</string>
+					<key>key</key>
+					<string>git show v3.0</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>163</integer>
+					<key>question</key>
+					<string>Create signed tag v3.0</string>
+					<key>key</key>
+					<string>git tag -s v3.0</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>1641</integer>
+					<key>question</key>
+					<string>Create lightweight tag v2.1</string>
+					<key>key</key>
+					<string>git tag v2.1-lw</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>1642</integer>
+					<key>question</key>
+					<string>Verify signed tag v3.0</string>
+					<key>key</key>
+					<string>git tag -v v3.0</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>1643</integer>
+					<key>question</key>
+					<string>Tag previous commit &apos;8feb&apos; as v2.2</string>
+					<key>key</key>
+					<string>git tag -a v2.2 8feb</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>1644</integer>
+					<key>question</key>
+					<string>Push tag v2.2 to origin</string>
+					<key>key</key>
+					<string>git push origin v2.2</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>1645</integer>
+					<key>question</key>
+					<string>Push all local tags to origin</string>
+					<key>key</key>
+					<string>git push origin --tags</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Using Stashes</string>
+			<key>QAs</key>
+			<array>
+				<dict>
+					<key>id</key>
+					<integer>165</integer>
+					<key>question</key>
+					<string>Stash changes without committing</string>
+					<key>key</key>
+					<string>git stash</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>166</integer>
+					<key>question</key>
+					<string>Show stores stashes</string>
+					<key>key</key>
+					<string>git stash list</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>167</integer>
+					<key>question</key>
+					<string>Reapply most recent stash</string>
+					<key>key</key>
+					<string>git stash apply</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>168</integer>
+					<key>question</key>
+					<string>Reapply stash 2</string>
+					<key>key</key>
+					<string>git stash apply stash@2</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>169</integer>
+					<key>question</key>
+					<string>Reapply stashed changes along with staged changes</string>
+					<key>key</key>
+					<string>git stash apply --index</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>170</integer>
+					<key>question</key>
+					<string>Drop stash 2</string>
+					<key>key</key>
+					<string>git stash drop stash@{2}</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>171</integer>
+					<key>question</key>
+					<string>Apply most recent stash and drop from stack</string>
+					<key>key</key>
+					<string>git stash pop</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>172</integer>
+					<key>question</key>
+					<string>Create branch &apos;mybranch&apos; from stash</string>
+					<key>key</key>
+					<string>git stash branch mybranch</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>173</integer>
+					<key>question</key>
+					<string>Delete all stashes</string>
+					<key>key</key>
+					<string>d</string>
+					<key>New item</key>
+					<string>git stash clear</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>1741</integer>
+					<key>question</key>
+					<string>Show what&apos;s staged but not yet committed</string>
+					<key>key</key>
+					<string>git diff --staged</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>1742</integer>
+					<key>question</key>
+					<string>Check for whitespace errors before committing</string>
+					<key>key</key>
+					<string>git diff --check</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Using Bisect</string>
+			<key>QAs</key>
+			<array>
+				<dict>
+					<key>id</key>
+					<integer>175</integer>
+					<key>question</key>
+					<string>Start binary search of commits to find bad commit</string>
+					<key>key</key>
+					<string>git bisect start</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>176</integer>
+					<key>question</key>
+					<string>Mark current commit as broken during bisect</string>
+					<key>key</key>
+					<string>git bisect bad</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>177</integer>
+					<key>question</key>
+					<string>Mark v2.2 as last known good commit during bisect</string>
+					<key>key</key>
+					<string>git bisect good v2.2</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>178</integer>
+					<key>question</key>
+					<string>Mark current commit as good during bisect</string>
+					<key>key</key>
+					<string>git bisect good</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>179</integer>
+					<key>question</key>
+					<string>Reset HEAD when finished with bisect</string>
+					<key>key</key>
+					<string>git bisect reset</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<integer>180</integer>
+					<key>question</key>
+					<string>Run &apos;test.sh&apos; on each commit during bisect</string>
+					<key>key</key>
+					<string>git bisect run test.sh</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Misc.</string>
+			<key>QAs</key>
+			<array>
+				<dict>
+					<key>id</key>
+					<integer>175</integer>
+					<key>question</key>
+					<string>Load all submodules</string>
+					<key>key</key>
+					<string>git submodule update --init --recursive</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -121,16 +121,18 @@
     NSLog(@"Selector method is (%@)", NSStringFromSelector( commandSelector ) );
     if (commandSelector == @selector(insertNewline:)) {
         NSLog(@"@selector(insertNewline:)");
+        NSString*specialCommand = [test.answer substringWithRange:NSMakeRange(0,[test.answer length] - 1)];
         NSString * result = @"";
-        if ([test.answer isEqualToString:@"ESC"]) {
+        if ([specialCommand isEqualToString:self.inputLbl.stringValue]) {
             result = kTextSuccess;
             NSMutableString * lbl =[NSMutableString stringWithFormat:@"%@\n",self.resultLbl.stringValue];
-            NSMutableString* str = [NSMutableString stringWithFormat:@"%@  %@    %@\n",result, test.question , @"ESC"];
+            NSMutableString* str = [NSMutableString stringWithFormat:@"%@  %@    %@\n",result, test.question ,test.answer];
             [str appendString:lbl];
             self.resultLbl.stringValue = str;
             
             [self loadRandomQuestion];
         }
+        return NO;
         
     } else if (commandSelector == @selector(deleteForward:)) {
         NSLog(@"@selector(deleteForward:)");
