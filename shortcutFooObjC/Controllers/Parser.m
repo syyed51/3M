@@ -19,6 +19,8 @@
 #define kTagLevels @"Levels"
 #define kTagQAs     @"QAs"
 #define kTagID      @"id"
+#define kTagQuestion      @"question"
+#define kTagAnswer      @"key"
 
 
 @implementation Parser
@@ -66,14 +68,15 @@
         QA* qa = [self parseQuestionAnswer:d];
         [arr addObject:qa];
     }
+    l.qAs = arr;
     return l;
 }
 -(QA*)parseQuestionAnswer:(NSDictionary*)questionsDictonary{
     QA * qa = [QA new];
     
-    qa.question = [questionsDictonary objectForKey:kTagID];
+    qa.question = [questionsDictonary objectForKey:kTagQuestion];
     qa.qid = [questionsDictonary objectForKey:kTagID];
-    qa.answer = [questionsDictonary objectForKey:kTagID];
+    qa.answer = [questionsDictonary objectForKey:kTagAnswer];
     return qa;
 }
 @end

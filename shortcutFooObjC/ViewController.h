@@ -10,12 +10,14 @@
 #import "AppController.h"
 @interface ViewController : NSViewController<NSTextFieldDelegate>
 @property (weak) IBOutlet NSButton *startBtn;
+@property (weak) IBOutlet NSTextField *titleLbl;
 @property (weak) IBOutlet NSTextField *instructionsLbl;
 @property (weak) IBOutlet NSTextField *inputLbl;
 @property (weak) IBOutlet NSTextField *resultLbl;
 
 
-- (IBAction)startBA:(id)sender;
 
+- (IBAction)startBA:(id)sender;
+-(void)loadRandomQuestion;
 @end
 

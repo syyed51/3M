@@ -7,7 +7,7 @@
 //
 
 #import "Level.h"
-
+#import "QA.h"
 @implementation Level
 -(instancetype)init{
     self = [super init];
@@ -17,5 +17,9 @@
         _qAs = [NSArray array];
     }
     return self;
+}
+-(QA*)getRandomQuestion{
+    NSUInteger idx =[_qAs count];
+    return [_qAs objectAtIndex:rand()%idx];
 }
 @end
