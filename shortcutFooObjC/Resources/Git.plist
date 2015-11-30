@@ -41,8 +41,6 @@
 					<key>id</key>
 					<integer>104</integer>
 					<key>question</key>
-					<string>Move right one character</string>
-					<key>New item</key>
 					<string>Stage modified file main.txt</string>
 					<key>key</key>
 					<string>git add main.txt</string>

@@ -32,13 +32,13 @@
     //Get list of courses.
     NSArray * arrCourses = [[AppController sharedController] getCourses];
     //Select a course.
-    Course * c = [arrCourses firstObject];
+    Course * c = [arrCourses lastObject];
     
     //Load first level in the course.
     NSArray* levels = [[AppController sharedController] getLevelsCourse:c];
     
-    //select level1
-    level = [levels lastObject];
+    //select level3
+    level = [levels objectAtIndex:0];
     
     NSMutableString * title = [NSMutableString string];
     [title appendFormat:@"%@\n",c.title];
@@ -73,7 +73,7 @@
 
 - (void)controlTextDidChange:(NSNotification *)notification {
     NSTextField *textField = [notification object];
-    NSString * text = [textField.stringValue stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
+//    NSString * text = [textField.stringValue stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
     NSLog(@"controlTextDidChange:%@", [textField stringValue]);
     NSString * result = @"";
     if (!start)return;
@@ -145,7 +145,6 @@
                NSLog(@"@selector(insertTab:)");
     }
     
-    // return YES if the action was handled; otherwise NO
     return YES;
 }
 

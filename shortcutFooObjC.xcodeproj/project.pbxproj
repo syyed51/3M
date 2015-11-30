@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D7D985D1C0C088C0015CCCF /* Git.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D7D985B1C0C088C0015CCCF /* Git.plist */; };
+		8D7D985E1C0C088C0015CCCF /* XCode.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D7D985C1C0C088C0015CCCF /* XCode.plist */; };
 		8D8438271C047783003C82C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8438261C047783003C82C6 /* AppDelegate.m */; };
 		8D8438291C047784003C82C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8438281C047784003C82C6 /* main.m */; };
 		8D84382C1C047784003C82C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D84382B1C047784003C82C6 /* ViewController.m */; };
@@ -40,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8D7D985B1C0C088C0015CCCF /* Git.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Git.plist; path = Resources/Git.plist; sourceTree = "<group>"; };
+		8D7D985C1C0C088C0015CCCF /* XCode.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = XCode.plist; path = Resources/XCode.plist; sourceTree = "<group>"; };
 		8D8438201C047783003C82C6 /* shortcutFooObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shortcutFooObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D8438241C047783003C82C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D8438251C047783003C82C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -165,6 +169,8 @@
 			children = (
 				8D8438671C0578C0003C82C6 /* Courses.plist */,
 				8D8438681C0578C0003C82C6 /* Vim.plist */,
+				8D7D985B1C0C088C0015CCCF /* Git.plist */,
+				8D7D985C1C0C088C0015CCCF /* XCode.plist */,
 			);
 			name = Resources;
 			path = shortcutFooObjC;
@@ -267,6 +273,8 @@
 				8D84382E1C047784003C82C6 /* Images.xcassets in Resources */,
 				8D8438311C047784003C82C6 /* Main.storyboard in Resources */,
 				8D84386B1C0578C0003C82C6 /* Vim.plist in Resources */,
+				8D7D985E1C0C088C0015CCCF /* XCode.plist in Resources */,
+				8D7D985D1C0C088C0015CCCF /* Git.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
