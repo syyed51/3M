@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		8D7D985D1C0C088C0015CCCF /* Git.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D7D985B1C0C088C0015CCCF /* Git.plist */; };
 		8D7D985E1C0C088C0015CCCF /* XCode.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D7D985C1C0C088C0015CCCF /* XCode.plist */; };
+		8D838ADC1C0C358C0076A127 /* 3MTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D838ADB1C0C358C0076A127 /* 3MTextField.m */; };
+		8D838ADF1C0D88260076A127 /* InputObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D838ADE1C0D88260076A127 /* InputObj.m */; };
+		8D838AE11C0D91AC0076A127 /* French.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D838AE01C0D91AC0076A127 /* French.plist */; };
 		8D8438271C047783003C82C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8438261C047783003C82C6 /* AppDelegate.m */; };
 		8D8438291C047784003C82C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8438281C047784003C82C6 /* main.m */; };
 		8D84382C1C047784003C82C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D84382B1C047784003C82C6 /* ViewController.m */; };
@@ -44,6 +47,11 @@
 /* Begin PBXFileReference section */
 		8D7D985B1C0C088C0015CCCF /* Git.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Git.plist; path = Resources/Git.plist; sourceTree = "<group>"; };
 		8D7D985C1C0C088C0015CCCF /* XCode.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = XCode.plist; path = Resources/XCode.plist; sourceTree = "<group>"; };
+		8D838ADA1C0C358C0076A127 /* 3MTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 3MTextField.h; sourceTree = "<group>"; };
+		8D838ADB1C0C358C0076A127 /* 3MTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = 3MTextField.m; sourceTree = "<group>"; };
+		8D838ADD1C0D88260076A127 /* InputObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InputObj.h; path = Objects/InputObj.h; sourceTree = "<group>"; };
+		8D838ADE1C0D88260076A127 /* InputObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InputObj.m; path = Objects/InputObj.m; sourceTree = "<group>"; };
+		8D838AE01C0D91AC0076A127 /* French.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = French.plist; path = Resources/French.plist; sourceTree = "<group>"; };
 		8D8438201C047783003C82C6 /* shortcutFooObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shortcutFooObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D8438241C047783003C82C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D8438251C047783003C82C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -90,6 +98,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D7D985F1C0C18B80015CCCF /* CustomObjs */ = {
+			isa = PBXGroup;
+			children = (
+				8D838ADA1C0C358C0076A127 /* 3MTextField.h */,
+				8D838ADB1C0C358C0076A127 /* 3MTextField.m */,
+				8D838ADD1C0D88260076A127 /* InputObj.h */,
+				8D838ADE1C0D88260076A127 /* InputObj.m */,
+			);
+			name = CustomObjs;
+			sourceTree = "<group>";
+		};
 		8D8438171C047783003C82C6 = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +131,7 @@
 		8D8438221C047783003C82C6 /* shortcutFooObjC */ = {
 			isa = PBXGroup;
 			children = (
+				8D7D985F1C0C18B80015CCCF /* CustomObjs */,
 				8D84386D1C0578CB003C82C6 /* Objects */,
 				8D84385D1C05788C003C82C6 /* Controllers */,
 				8D8438541C057086003C82C6 /* Header.h */,
@@ -171,6 +191,7 @@
 				8D8438681C0578C0003C82C6 /* Vim.plist */,
 				8D7D985B1C0C088C0015CCCF /* Git.plist */,
 				8D7D985C1C0C088C0015CCCF /* XCode.plist */,
+				8D838AE01C0D91AC0076A127 /* French.plist */,
 			);
 			name = Resources;
 			path = shortcutFooObjC;
@@ -269,6 +290,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D838AE11C0D91AC0076A127 /* French.plist in Resources */,
 				8D8438691C0578C0003C82C6 /* Courses.plist in Resources */,
 				8D84382E1C047784003C82C6 /* Images.xcassets in Resources */,
 				8D8438311C047784003C82C6 /* Main.storyboard in Resources */,
@@ -297,10 +319,12 @@
 				8D84382C1C047784003C82C6 /* ViewController.m in Sources */,
 				8D8438291C047784003C82C6 /* main.m in Sources */,
 				8D8438271C047783003C82C6 /* AppDelegate.m in Sources */,
+				8D838ADC1C0C358C0076A127 /* 3MTextField.m in Sources */,
 				8D8438621C0578A2003C82C6 /* AppController.m in Sources */,
 				8D8438741C0578DC003C82C6 /* Course.m in Sources */,
 				8D8438781C0578DC003C82C6 /* QA.m in Sources */,
 				8D8438761C0578DC003C82C6 /* Level.m in Sources */,
+				8D838ADF1C0D88260076A127 /* InputObj.m in Sources */,
 				8D8438641C0578A2003C82C6 /* Parser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

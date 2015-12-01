@@ -10,16 +10,11 @@
 #import "Course.h"
 #import "Level.h"
 #import "QA.h"
-#define kTextSuccess @"Success !"
-#define kTextFailed @"Failed !"
-#define kTextStart @"Start"
-#define kTextEnd    @"End"
+#import "Constants.h"
 @interface ViewController(){
     BOOL start;
     QA* test;
     Level* level;
-@private
-
 }
 
 @end
@@ -54,18 +49,27 @@
     self.inputLbl.stringValue = @"";
     test = [level getRandomQuestion];
     self.instructionsLbl.stringValue = test.question;
-    self.inputLbl.placeholderString = test.answer;
+    if (self.helpCBox.state == NSOnState){
+        NSLog(@"Help is ON");
+        self.inputLbl.placeholderString = test.answer;
+    }else{
+        NSLog(@"Help is ON");
+        self.inputLbl.placeholderString = @"";
+    }
 }
+
+- (IBAction)helpBA:(id)sender {
+    [self loadRandomQuestion];
+}
+
 - (IBAction)startBA:(id)sender {
-    if ([self.startBtn.title isEqualToString:kTextStart]) {
+    if (self.startBtn.state == NSOnState) {
         start = YES;
         NSLog(kTextStart);
-        self.startBtn.title = kTextEnd;
         [self loadRandomQuestion];
     }else{
         start = NO;
         NSLog(kTextEnd);
-        self.startBtn.title = kTextStart;
         self.instructionsLbl.stringValue = @"";
         self.inputLbl.stringValue = @"";
     }

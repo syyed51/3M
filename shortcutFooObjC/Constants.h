@@ -11,4 +11,9 @@
 #define kFileNameCourses @"Courses"
 #define kPlist @"plist"
 
+
+#define kTextSuccess @"Success !"
+#define kTextFailed @"Failed !"
+#define kTextStart @"Start"
+#define kTextEnd    @"End"
 #endif

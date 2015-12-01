@@ -673,30 +673,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3mQ-Ff-eBx">
-                                <rect key="frame" x="350" y="150" width="126" height="32"/>
-                                <animations/>
-                                <buttonCell key="cell" type="push" title="Start" bezelStyle="rounded" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="CMi-nF-kiL">
-                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="system"/>
-                                    <connections>
-                                        <action selector="startBA:" target="XfG-lQ-9wD" id="f87-Nf-eBG"/>
-                                    </connections>
-                                </buttonCell>
-                            </button>
-                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" setsMaxLayoutWidthAtFirstLayout="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qdA-9l-v3t">
+                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" allowsExpansionToolTips="YES" setsMaxLayoutWidthAtFirstLayout="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qdA-9l-v3t">
                                 <rect key="frame" x="40" y="8" width="432" height="78"/>
                                 <animations/>
-                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" id="akN-EI-giY">
+                                <textFieldCell key="cell" continuous="YES" sendsActionOnEndEditing="YES" baseWritingDirection="leftToRight" allowsEditingTextAttributes="YES" id="akN-EI-giY">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
                             <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="h7L-YC-l0b">
-                                <rect key="frame" x="42" y="156" width="306" height="22"/>
+                                <rect key="frame" x="57" y="156" width="306" height="22"/>
                                 <animations/>
-                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="MZH-gc-3aC">
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" allowsEditingTextAttributes="YES" id="MZH-gc-3aC">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -706,7 +695,7 @@
                                 </connections>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rq8-0H-N7z">
-                                <rect key="frame" x="40" y="226" width="432" height="44"/>
+                                <rect key="frame" x="57" y="226" width="306" height="44"/>
                                 <animations/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" id="K6D-1Y-ZCM">
                                     <font key="font" metaFont="system" size="16"/>
@@ -715,7 +704,7 @@
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zf3-rH-xve">
-                                <rect key="frame" x="40" y="177" width="310" height="32"/>
+                                <rect key="frame" x="57" y="177" width="306" height="32"/>
                                 <animations/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" placeholderString="Press start to begin." id="X9d-Ns-aSx">
                                     <font key="font" metaFont="system"/>
@@ -723,16 +712,39 @@
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
+                            <button horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rta-ol-dio">
+                                <rect key="frame" x="4" y="152" width="32" height="31"/>
+                                <animations/>
+                                <buttonCell key="cell" type="disclosureTriangle" bezelStyle="disclosure" imagePosition="above" alignment="left" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="wsF-dO-lEk">
+                                    <behavior key="behavior" pushIn="YES" changeBackground="YES" changeGray="YES" lightByContents="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="startBA:" target="XfG-lQ-9wD" id="2hb-Jx-jOC"/>
+                                </connections>
+                            </button>
+                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8wl-CC-X3g">
+                                <rect key="frame" x="392" y="160" width="61" height="18"/>
+                                <animations/>
+                                <buttonCell key="cell" type="check" title="Help" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="YGO-os-0oR">
+                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="helpBA:" target="XfG-lQ-9wD" id="uhZ-Be-fCV"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                     </view>
                     <connections>
                         <outlet property="backgroundView" destination="m2S-Jp-Qdl" id="kgN-Uh-o7e"/>
+                        <outlet property="helpCBox" destination="8wl-CC-X3g" id="BCz-bQ-JQj"/>
                         <outlet property="inputLbl" destination="h7L-YC-l0b" id="6xp-N8-Ft4"/>
                         <outlet property="instructionLbl" destination="zf3-rH-xve" id="4hH-lx-bYZ"/>
                         <outlet property="instructionsLbl" destination="zf3-rH-xve" id="8GQ-75-SB6"/>
                         <outlet property="resultLbl" destination="qdA-9l-v3t" id="8fS-fh-tX7"/>
-                        <outlet property="startBtn" destination="3mQ-Ff-eBx" id="xls-7R-nid"/>
+                        <outlet property="startBtn" destination="rta-ol-dio" id="bal-h5-u4I"/>
                         <outlet property="titleLbl" destination="rq8-0H-N7z" id="y2r-z8-Tda"/>
                     </connections>
                 </viewController>

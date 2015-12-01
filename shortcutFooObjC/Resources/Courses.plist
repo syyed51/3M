@@ -24,6 +24,26 @@
 			<key>coursefilename</key>
 			<string>Git</string>
 		</dict>
+		<dict>
+			<key>title</key>
+			<string>Xcode</string>
+			<key>description</key>
+			<string>Learn Xcode shortcuts</string>
+			<key>courseid</key>
+			<real>1003</real>
+			<key>coursefilename</key>
+			<string>XCode</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Learning French language</string>
+			<key>description</key>
+			<string>Lets see the benifits of learning a language in this way.</string>
+			<key>courseid</key>
+			<real>1004</real>
+			<key>coursefilename</key>
+			<string>French</string>
+		</dict>
 	</array>
 </dict>
 </plist>
