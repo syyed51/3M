@@ -359,7 +359,7 @@
 					<integer>141</integer>
 					<key>question</key>
 					<string>Move backward one screen</string>
-					<key>Move backward one screen</key>
+					<key>key</key>
 					<string>^b</string>
 				</dict>
 				<dict>

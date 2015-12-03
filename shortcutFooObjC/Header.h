@@ -9,6 +9,6 @@
 #ifndef shortcutFooObjC_Header_h
 #define shortcutFooObjC_Header_h
 
-#import 
+ 
 
 #endif

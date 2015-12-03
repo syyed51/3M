@@ -21,7 +21,7 @@
 					<key>id</key>
 					<string>101</string>
 					<key>question</key>
-					<string>I</string>
+					<string>How do you say &apos;I&apos; </string>
 					<key>key</key>
 					<string>je</string>
 					<key>unsed</key>
@@ -31,7 +31,7 @@
 					<key>id</key>
 					<string>102</string>
 					<key>question</key>
-					<string>you</string>
+					<string>How do you say &apos;you&apos;</string>
 					<key>key</key>
 					<string>tu</string>
 					<key>unsed</key>
@@ -41,7 +41,7 @@
 					<key>id</key>
 					<string>103</string>
 					<key>question</key>
-					<string>he</string>
+					<string>How do you say &apos;He&apos;</string>
 					<key>key</key>
 					<string>il</string>
 					<key>unsed</key>
@@ -51,7 +51,7 @@
 					<key>id</key>
 					<string>104</string>
 					<key>question</key>
-					<string>she</string>
+					<string>How do you say &apos;She&apos;</string>
 					<key>key</key>
 					<string>elle</string>
 					<key>unsed</key>
@@ -61,7 +61,7 @@
 					<key>id</key>
 					<string>105</string>
 					<key>question</key>
-					<string>we</string>
+					<string>How do you say &apos;We&apos;</string>
 					<key>key</key>
 					<string>on</string>
 					<key>unsed</key>

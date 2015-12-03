@@ -15,6 +15,8 @@
 @property (weak) IBOutlet NSTextField *instructionsLbl;
 @property (weak) IBOutlet NSTextField *inputLbl;
 @property (weak) IBOutlet NSTextField *resultLbl;
+@property (weak) IBOutlet NSTextField *timerLbl;
+@property (weak) IBOutlet NSProgressIndicator *progressBar;
 
 
 - (IBAction)helpBA:(id)sender;
